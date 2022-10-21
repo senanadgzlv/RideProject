@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Oxanium:wght@700&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500&display=swap');
+.hero{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+
+    .text{
+     
+        position: absolute;
+        top: 100px;
+        left: 50px;
+      
+       
+        
+    }
+    .text1{
+        p{
+            color: #fff;
+            font-size: 14px;
+            font-family: "Rajdhani";
+        
+            line-height: 20px;
+            letter-spacing: 2px;
+
+        }
+        h1{
+            font-size: 72px;
+            color: #fff;
+            font-family: sans-serif;
+            text-transform: capitalize;
+            font-weight: 600;
+            margin-bottom: 50px;
+        
+        }
+
+        a{
+            color: #fff;
+            font-size: 15px;
+            font-weight: 700;
+            font-family: sans-serif;
+            padding: 10px 45px;
+            border: 5px solid #fff;
+           text-decoration: none;
+           transition: .5s;
+       
+          
+&:hover{
+    color: #000;
+    border: 5px solid #000;
+}
+         
+        }
+    }
+    .image{
+      
+        position: absolute;
+        top: 60px;
+        right: 50px;
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        color: #fff;
+    }
+    .swiper-button-prev:after,  .swiper-button-next:after{
+        font-size: 1.8rem;
+    }
+    .text2{
+     p{
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+         color: #fff;
+         font-family: "Rajdhani";
+     }
+     h1{
+        font-size: 72px;
+        color: #fff;
+        text-transform: capitalize;
+        font-family: sans-serif;
+        font-weight: 600;
+   
+
+     }
+     p{
+        font-size: 16px;
+        font-family: "Rajdhani";
+        color: #fff;
+        font-weight: 700;
+        margin-bottom: 30px;
+        span{
+            color: #ff6600;
+        }
+     }
+     a{
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        font-family: sans-serif;
+        padding: 10px 45px;
+        border: 5px solid #fff;
+       text-decoration: none;
+       transition: .5s;
+       text-transform: uppercase;
+
+       &:hover{
+        color: #ff6600;
+        border: 5px solid #ff6600;
+       }
+
+     }
+    }
+
+    .text3{
+        h1{
+            font-size: 72px;
+            font-weight: 700;
+            font-family: sans-serif;
+            color: #ff6600;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: 60px;
+            font-weight: 700;
+            color: #fff;
+            line-height: 65px;
+            font-family: "Rajdhani";
+            text-transform: capitalize;
+        }
+        h5{
+            font-size: 18px;
+            font-family: "Rajdhani";
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+        .shop{
+            padding: 15px 25px;
+            background-color: #ff6600;
+            color: #fff;
+            text-decoration: none;
+            font-size: 14px;
+            font-family: sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            border: 3px solid transparent;
+            transition: .5s;
+            &:hover{
+                background-color: #000;
+                border: 3px solid #ff6600;
+                color: #ff6600;
+            }
+           
+        }
+        .product{
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 15px;
+            color: #fff;
+            border: 5px solid #fff;
+            padding: 12px 40px;
+            margin-left: 25px;
+            font-family: "Rajdhani";
+            font-weight: 600;
+            transition: .5s;
+&:hover{
+    border: 5px solid #ff6600;
+    color: #ff6600;
+}
+
+        }
+    }
+}
+
+

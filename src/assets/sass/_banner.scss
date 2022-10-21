@@ -1,0 +1,42 @@
+.banner{
+    width: 100%;
+    height: 40vh;
+    background-color: #000;
+    position:relative;
+
+    h2{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        right: 0;
+        color: #fe591500;
+        font-size: 200px;
+        line-height: 140px;
+        font-weight: 500;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        -webkit-text-stroke: 1px;
+        -webkit-text-stroke-color: #E0E0E040;
+        -webkit-text-stroke-width: 1px;
+        stroke: #E0E0E040;
+    }
+
+    p{
+        position: absolute;
+        top: 100px;
+        left: 50px;
+        color: #fff;
+        letter-spacing: 4px;
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+  h3{
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 70px;
+    
+  }
+}

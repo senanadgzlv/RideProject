@@ -1,0 +1,18 @@
+.stiker{
+    width: 100%;
+    height: 50vh;
+    background-color: #fe5915;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container-fluid{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        text-align: center;
+        .grid-item{
+            cursor: pointer;
+        }
+
+    }
+}

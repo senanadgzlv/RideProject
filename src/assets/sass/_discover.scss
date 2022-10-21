@@ -1,0 +1,91 @@
+.discover {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    overflow-x: hidden;
+
+
+    .mainbox {
+        width: 100%;
+        height: auto;
+
+        .box {
+            width: 560px;
+            height: auto;
+            position: relative;
+            // border: 2px solid red;
+            overflow: hidden;
+            cursor: pointer;
+
+            &:hover img {
+                transform: translateX(-40px);
+            }
+
+            img {
+                width: 100%;
+                transition: 0.3s;
+
+
+            }
+
+            h1 {
+                position: absolute;
+                top: 20px;
+                left: 70px;
+                color: #fff;
+            }
+
+            .speed {
+                position: absolute;
+                top: 65px;
+                color: #fff;
+
+            }
+
+            p {
+                position: absolute;
+                top: 130px;
+                left: 70px;
+                font-size: 14px;
+                color: #fff;
+
+                span {
+                    color: #ff6600;
+                }
+            }
+
+            a {
+                position: absolute;
+                bottom: 55px;
+                left: 100px;
+                padding: 14px 30px;
+                background-color: #fe5915;
+
+                text-decoration: none;
+                color: #fff;
+
+                &:hover {
+                    background-color: #000;
+                }
+            }
+
+            .trial {
+                position: absolute;
+                top: 120px;
+            }
+
+            .trialtitle {
+                position: absolute;
+                top: 20px;
+            }
+
+            .road {
+                position: absolute;
+                top: 125px;
+            }
+
+        }
+    }
+
+
+}

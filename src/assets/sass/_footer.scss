@@ -1,0 +1,99 @@
+.footer {
+  width: 100%;
+  height: auto;
+  background-image: url(../img/footer.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+
+  .senan1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    text-align: center;
+    .grid-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      border: 1px solid #2c2c2c;
+      padding: 30px 70px;
+
+      span {
+        color: #fe5915;
+        font-size: 80px;
+      }
+      .nom {
+        font-size: 20px;
+        color: #fe5915;
+      }
+      h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 30px;
+        color: #fff;
+        font-family: sans-serif;
+      }
+      p {
+        color: #999;
+        font-size: 16px;
+        font-family: sans-serif;
+      }
+    
+    }
+    .alink{
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-family: sans-serif;
+      font-weight: 700;
+    color: #fff;
+    }
+  }
+
+  .senan2 {
+    h4 {
+      color: #fff;
+      font-size: 16px;
+      font-family: sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 20px;
+    }
+
+    ul {
+      line-height: 30px;
+      a {
+        text-decoration: none;
+        color: #999;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 15px;
+        &:hover {
+          color: #fe5915;
+        }
+      }
+    }
+  }
+  .icons {
+    color: #fff;
+    display: flex;
+    justify-content: end;
+
+    i {
+      border-radius: 50%;
+      border: 2px solid #999;
+      padding: 10px;
+      transition: 0.5s;
+      &:hover {
+        border-color: #fe5915;
+        color: #fe5915;
+      }
+    }
+  }
+  p {
+    color: #fff;
+    .ridez {
+      color: #fe5915;
+    }
+  }
+}
