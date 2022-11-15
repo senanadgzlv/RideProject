@@ -232,69 +232,242 @@ export const footeritems = [
   },
 ];
 
-export const categoriesItems = [
+// export const categoriesItems = [
+//   {
+//     id: 1,
+//     img: feapro1,
+//     img1: feapro2,
+//     title: "PRACTICAL IRON KEYBOARD",
+//     price: 878.44,
+//     category:"Accessories"
+//   },
+//   {
+//     id: 2,
+//     img: feapro3,
+//     img1: feapro4,
+//     title: "GORGEOUS LINEN KNIFE",
+//     price: 329.28,
+//     category:"Accessories"
+//   },
+//   {
+//     id: 3,
+//     img: feapro5,
+//     img1: feapro6,
+//     title: "AWESOME LEATHER SHOES",
+//     price: 22.87,
+//     category:"BestSeller"
+//   },
+//   {
+//     id: 4,
+//     img: feapro7,
+//     img1: feapro8,
+//     title: "SMALL PAPER WATCH",
+//     price: 706.12,
+//     category:"BikeCycle"
+//   },
+//   {
+//     id: 5,
+//     img: product1,
+//     img1: product2,
+//     title: "Durable Linen Bench",
+//     price: 95.0,
+//     category:"Gloves"
+//   },
+//   {
+//     id: 6,
+//     img: product3,
+//     img1: product4,
+//     title: "Sleek cotton Bag",
+//     price: 85.0,
+//     category:"Helmets"
+//   },
+//   {
+//     id: 7,
+//     img: product5,
+//     img1: product6,
+//     title: "Sleek cotton Bag",
+//     price: 85.0,
+//     category:"Clothing"
+//   },
+//   {
+//     id: 8,
+//     img: product7,
+//     img1: product8,
+//     title: "Sleek cotton Bag",
+//     price: 85.0,
+//     category:"Boots"
+//   },
+// ];
+
+
+
+export const categorylist=[
+  {
+    id:1,
+    value:" Bicycles",
+    label:"🚴‍♂️ Bicycles",
+   
+  },
+
+  {
+    id:2,
+    value:"Clothes",
+    label:"👘 Clothes"
+  }
+];
+
+
+export const ratingList = [
+  {
+    id: 1,
+    value: '1',
+    label: '1🌟',
+  },
+  {
+    id: 2,
+    value: '2',
+    label: '2🌟',
+  },
+  {
+    id: 3,
+    value: '3',
+    label: '3🌟',
+  },
+  {
+    id: 4,
+    value: '4',
+    label: '4🌟',
+  },
+  {
+    id: 5,
+    value: '5',
+    label: '5🌟',
+  },
+];
+
+export const dataList = [
   {
     id: 1,
     img: feapro1,
     img1: feapro2,
     title: "PRACTICAL IRON KEYBOARD",
-    price: 878.44,
-    category:"Accessories"
+    price: 2500,
+    category:"Bicycles",
+    product:"Accessories",
+    rating: 5
   },
   {
     id: 2,
     img: feapro3,
     img1: feapro4,
     title: "GORGEOUS LINEN KNIFE",
-    price: 329.28,
-    category:"Accessories"
+    price: 1500,
+    category:"Bicycles",
+    product:"Accessories",
+    rating: 4
   },
   {
     id: 3,
     img: feapro5,
     img1: feapro6,
     title: "AWESOME LEATHER SHOES",
-    price: 22.87,
-    category:"BestSeller"
+    price: 3000,
+    category:"Bicycles",
+    product:"Gloves",
+    rating: 3
   },
   {
     id: 4,
     img: feapro7,
     img1: feapro8,
     title: "SMALL PAPER WATCH",
-    price: 706.12,
-    category:"BikeCycle"
+    price: 4200,
+    category:"Bicycles",
+    product:"Gloves",
+    rating: 5
   },
   {
     id: 5,
     img: product1,
     img1: product2,
     title: "Durable Linen Bench",
-    price: 95.0,
-    category:"Gloves"
+    price: 1500,
+    category:"Bicycles",
+    product:"Bikes",
+    rating: 2
   },
   {
     id: 6,
     img: product3,
     img1: product4,
     title: "Sleek cotton Bag",
-    price: 85.0,
-    category:"Helmets"
+    price: 3500,
+    category:"Bicycles",
+    product:"Bikes",
+    rating: 1
+    
   },
   {
     id: 7,
     img: product5,
     img1: product6,
     title: "Sleek cotton Bag",
-    price: 85.0,
-    category:"Clothing"
+    price: 2250,
+    category:"Clothes",
+    product:"Helmets",
+    rating: 2
   },
   {
     id: 8,
     img: product7,
     img1: product8,
     title: "Sleek cotton Bag",
-    price: 85.0,
-    category:"Boots"
+    price: 1795,
+    category:"Clothes",
+    product:"Helmets",
+    rating: 3
+  },
+
+  {
+    id: 9,
+    img: product5,
+    img1: product6,
+    title: "Sleek cotton Bag",
+    price: 3625,
+    category:"Clothes",
+    product:"Boots",
+    rating: 3
+  },
+
+  {
+    id: 10,
+    img: product3,
+    img1: product4,
+    title: "Sleek cotton Bag",
+    price: 4000,
+    category:"Clothes",
+    product:"Boots",
+    rating: 1
+  },
+
+  {
+    id: 11,
+    img: product1,
+    img1: product6,
+    title: "Sleek cotton Bag",
+    price: 1655,
+    category:"Clothes",
+    product:"Helmets",
+    rating: 5
+  },
+  {
+    id: 12,
+    img: product5,
+    img1: product4,
+    title: "Sleek cotton Bag",
+    price: 4525,
+    category:"Clothes",
+    product:"Bikes",
+    rating: 1
   },
 ];

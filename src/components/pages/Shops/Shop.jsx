@@ -1,7 +1,9 @@
 import React from 'react'
 import Pagenav from './Pagenav'
 import Banner from './Banner'
-import Categories from './Categories'
+import Home from "./Homepage"
+
+
 
 const Shop = () => {
   return (
@@ -9,7 +11,8 @@ const Shop = () => {
 
       <Pagenav />
       <Banner title="Homepage → Shop" title2="Shop" />
-      <Categories />
+   <Home />
+
     </div>
   )
 }

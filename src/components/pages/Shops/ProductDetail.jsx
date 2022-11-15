@@ -1,29 +1,29 @@
-import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
-import { categoriesItems } from "../../../Data/Data";
-import ProductItem from "../Homecomponents/Productitem";
-import Productdetaltem from "./Productdetaltem";
-const ProductDetail = () => {
-  const { id } = useParams();
+// import React, { useEffect, useState } from "react";
+// import { useParams } from "react-router-dom";
+// import { categoriesItems } from "../../../Data/Data";
+// import ProductItem from "../Homecomponents/Productitem";
+// import Productdetaltem from "./Productdetaltem";
+// const ProductDetail = () => {
+//   const { id } = useParams();
 
-  const [productDetail, setProductDetail] = useState({});
+//   const [productDetail, setProductDetail] = useState({});
 
-  const getData = () => {
-    const foundProduct = categoriesItems.find((product) => {
-      return product.id === parseInt(id);
-    });
+//   const getData = () => {
+//     const foundProduct = categoriesItems.find((product) => {
+//       return product.id === parseInt(id);
+//     });
 
-    setProductDetail(foundProduct);
-    // console.log(productDetail);
-  };
+//     setProductDetail(foundProduct);
+ 
+//   };
 
-  useEffect(() => {
-    getData();
-    window.scrollTo(0, 0);
-  }, []);
-  return (
- <Productdetaltem />
-  );
-};
+//   useEffect(() => {
+//     getData();
+//     window.scrollTo(0, 0);
+//   }, []);
+//   return (
+//  <Productdetaltem />
+//   );
+// };
 
-export default ProductDetail;
+// export default ProductDetail;
