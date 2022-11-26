@@ -1,4 +1,6 @@
 import React from "react";
+import { useState } from "react";
+import { createContext } from "react";
 import Discover from "./Discover";
 import Feapro from "./Feapro";
 import Features from "./Features";
@@ -12,9 +14,16 @@ import Sticker from "./Sticker";
 import Subs from "./Subs";
 import Subs2 from "./Subs2";
 
+export const ThemeContext = createContext(null);
+
 const Home = () => {
+
+
+
   return (
-    <div>
+
+
+<div >
       <Header />
       <Slider />
       <Discover />
@@ -31,6 +40,7 @@ const Home = () => {
       <Sticker />
       {/* <Footer /> */}
     </div>
+
   );
 };
 

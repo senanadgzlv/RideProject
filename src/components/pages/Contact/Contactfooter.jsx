@@ -3,11 +3,11 @@ import React from "react";
 const Contactfooter = () => {
   return (
    <>
-    <div className="contactfooter">
-      <div className="container-fluid">
-        <div className="row">
-          <div className=" col-12 col-lg-4">
-            <div className="content">
+    <div className="contactfooter ">
+      <div className="container-fluid ">
+        <div className="row senan ">
+          <div className=" col-12 col-lg-4 ">
+            <div className="content ms-5">
               <h5>Get To know us</h5>
               <h2>
                 Have a project in <br /> mind? Let’s talk
@@ -20,7 +20,7 @@ const Contactfooter = () => {
           </div>
 
           <div className="col-12 col-lg-4">
-            <div className="content">
+            <div className="content ms-5">
               <h3>Email</h3>
               <p  id="email" >
                 <span>Support email:  </span>
@@ -39,7 +39,7 @@ const Contactfooter = () => {
           </div>
 
           <div className="col-12 col-lg-4">
-<div className="content">
+<div className="content  ">
 <h3>Customer Service hours</h3>
             <p id="open" >Open: 8:00 AM – Close: 18:00 PM <br />
 Saturday – Sunday: Close</p>

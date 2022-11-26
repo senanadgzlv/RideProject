@@ -1,0 +1,18 @@
+{
+    "nav": {
+      "0": "Home",
+      "1":"Shop",
+      "2":"Pages",
+      "3":"Blog",
+      "4":"Contact"
+
+   
+    },
+
+    "hero": {
+        "0": "Look Good , FeeL",
+        "1": "Good And Be",
+        "2": "Ready To Ride",
+        "3": "Explore Product"
+      }
+}

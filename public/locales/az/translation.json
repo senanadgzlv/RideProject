@@ -1,0 +1,18 @@
+{
+    "nav": {
+      "0": "Ana səhifə",
+      "1":"Bazar",
+      "2":"Səhifələr",
+      "3":"Bloq",
+      "4":"Əlaqə"
+
+   
+    },
+
+    "hero": {
+        "0": "Gözəl Görün Gözəl Hiss Et",
+        "1": "Yaxşı ol",
+        "2": "Sürməyə Hazır ol",
+        "3": "Productları kəşf et"
+      }
+}

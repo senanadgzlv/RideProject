@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const DiscoverItem = ({
   bikeitem: {
@@ -41,7 +42,7 @@ const DiscoverItem = ({
           </p>
 
           {/* <p>{desc}</p> */}
-          <a href="">{link}</a>
+          <Link to="/shop">{link}</Link>
         </div>
       </div>
     </div>

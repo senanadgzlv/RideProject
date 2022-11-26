@@ -1,0 +1,44 @@
+.team{
+    width: 100%;
+    height: 130vh;
+    .commonbox{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img{
+            width: 400px;
+        }
+        .qutu{
+            position: absolute;
+            bottom: 0;
+            transition: 1s;
+            cursor: pointer;
+            &:hover{
+                transform: translateY(-50px);
+            }
+            .agqutu{
+                width: 200px;
+                height: 80px;
+                background-color: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h2{
+                    font-size: 20px;
+                    font-family: "Rajdhani";
+                }
+            }
+            .qaraqutu{
+                width: 200px;
+                height: 50px;
+                background-color: black;
+                p{
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: sans-serif;
+                }
+            }
+        }
+    }
+}

@@ -7,13 +7,18 @@ import bg1photo from "../../../assets/img/h4-slider1.png";
 import bg2 from "../../../assets/img/slider2.jpg";
 import bg3 from "../../../assets/img/slider3.jpg";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
+import Lang from "../../Lang/Lang";
 
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "swiper/css/navigation";
+import { t } from "i18next";
 
 const Slider = () => {
+
+  const { t } = useTranslation();
   return (
     <section className="hero">
       <Swiper
@@ -45,9 +50,9 @@ const Slider = () => {
                 <div className="text text1">
                   <p>BIKE CLOTHING</p>
                   <h1>
-                    Look Good, Feel <br /> Good, And Be <br /> Ready To Ride
+                    {t("hero.0")} <br /> {t("hero.1")} <br /> {t("hero.2")}
                   </h1>
-                  <Link to="/shop">Explore Products</Link>
+                  <Link to="/shop">{t("hero.3")}</Link>
                 </div>
               </div>
 

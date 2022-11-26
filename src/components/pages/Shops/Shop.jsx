@@ -1,18 +1,16 @@
 import React from 'react'
-import Pagenav from './Pagenav'
+import Header from "./Header"
 import Banner from './Banner'
-import Home from "./Homepage"
-
+import Home from './Home/Home'
 
 
 const Shop = () => {
   return (
     <div>
-
-      <Pagenav />
-      <Banner title="Homepage → Shop" title2="Shop" />
-   <Home />
-
+        <Header />
+        <Banner title="Homepage → Shop" title2="Shop"  />
+        <Home />
+      
     </div>
   )
 }

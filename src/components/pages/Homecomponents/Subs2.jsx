@@ -1,5 +1,5 @@
 import React from "react";
-// import img1 from "../../assets/images/banner1.png"
+
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
@@ -11,9 +11,10 @@ const Subs2 = () => {
     responsiveClass: true,
     nav: false,
     autoplay: true,
+    
     items: 1,
     // navText: ["<i class='fa-solid fa-angle-left'></i>", "<i class='fa-solid fa-angle-right'></i>"],
-    smartSpeed: 4000,
+    smartSpeed: 2000,
     autoplay: true,
     autoplayTimeout: 4000,
     loop: true,
@@ -31,6 +32,13 @@ const Subs2 = () => {
       },
     },
   };
+  const styleObj = {
+    fontSize: 20,
+    color: "white",
+ 
+}
+
+
   return (
     <section className="subs2">
       <div className="image">
@@ -39,23 +47,25 @@ const Subs2 = () => {
 
       <div className="contentler">
         <div className="content">
-          <OwlCarousel className="slider-items owl-carousel" {...options}>
-            <h2>
+        <OwlCarousel   className="slider-items owl-carousel" {...options} >
+        <h2  style={styleObj} >
               “Good selection of bikes and cycling accessories <br /> and great
               service with professional staff. I always <br /> enjoy visiting
               the store.”
             </h2>
-            <h2>
+            <h2 style={styleObj} >
               “Good selection of bikes and cycling accessories <br /> and great
               service with professional staff. I always <br /> enjoy visiting
               the store.”
             </h2>
-            <h2>
+            <h2 style={styleObj}>
               “Good selection of bikes and cycling accessories <br /> and great
               service with professional staff. I always <br /> enjoy visiting
               the store.”
             </h2>
-          </OwlCarousel>
+        </OwlCarousel>
+          
+   
         </div>
       </div>
     </section>

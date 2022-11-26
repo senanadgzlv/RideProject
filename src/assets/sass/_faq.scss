@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    height: auto;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+    .accordion{
+        width: 800px;
+
+        .item{
+            background-color: #f0ebe1;
+            margin-bottom: 5px;
+            padding: 10px 20px;
+
+            .title{
+                font-size: 25px;
+                color: #f06525;
+                cursor: pointer;
+                span{
+                    font-size: 40px;
+                }
+            }
+            .content{
+                font-size: 16px;
+                font-family: sans-serif;
+                color: #000;
+                max-height: 0;
+                overflow: hidden;
+                transition: all 0.5s cubic-bezier(0,1,0,1);
+            }
+
+        }
+    }
+}
+
+.content-show{
+    height: auto;
+    max-height: 9999px;
+    transition: all 0.5s cubic-bezier(0,1,0,1);
+
+}

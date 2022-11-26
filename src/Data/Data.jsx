@@ -317,7 +317,7 @@ export const categorylist=[
 ];
 
 
-export const ratingList = [
+export const ratinglist = [
   {
     id: 1,
     value: '1',
@@ -471,3 +471,65 @@ export const dataList = [
     rating: 1
   },
 ];
+
+export const storyitem=[
+  {
+    id:1,
+    desc:"It is a beautiful ride through the hills and valleys of the Kettle Moraine region. I don’t think that.",
+    category:1983 
+  },
+
+  {
+    id:2,
+    desc:"Humans race for fun, for excitement, for the challenge. Competition is intrinsic to our nature.",
+    category:1995
+  },
+
+  {
+    id:3,
+    desc:"It is a beautiful ride through the hills and valleys of the Kettle Moraine region. I don’t think that .",
+    category:2007
+  },
+  {
+    id:4,
+    desc: "Humans race for fun, for excitement, for the challenge. Competition is intrinsic to our nature.",
+    category:2015
+  },
+
+
+
+]
+
+export const faqitems=[{
+question:"ARE YOU A HARLEY CLUB?",
+answer:"Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+
+},
+
+{
+  question:"ARE YOU AN 'OUTLAW' MOTORCYCLE CLUB?",
+  answer:"Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+
+},
+{
+  question:"I RIDE A MOTORCYCLE, CAN I JOIN?",
+answer:"Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+},
+{
+  question:"IF I SEE YOU GUYS AROUND, CAN I SAY HELLO? COPY",
+  answer:"Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+},
+{
+  question:"DO YOU ONLY RIDE HARLEY DAVIDSON MOTORCYCLES?",
+  answer:"Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."
+}
+]
+
+export const users=[
+  {
+    name:"Senan",
+    surname:"Adigozelov",
+    username:"senan.adigozelov",
+    password:"senan12"
+  }
+]
